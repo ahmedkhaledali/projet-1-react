@@ -1,0 +1,62 @@
+.titre{
+    text-align: center;
+    color: darkturquoise;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.prag{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+.cont-card{
+    margin-top: 5%;
+}
+.text-card{
+ font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;   
+}
+.liste{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+  
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+.liste option{
+    color: black;
+
+}
+.cont-titre1{
+    margin-top: 5%;
+}
+.cont-temoi{
+    margin-top: 5%;
+    background-color: #e5faf8;
+}
+.tt{
+    color: darkturquoise;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+}
+.st{
+    font-size: 15px;
+    text-align: center;
+    color:#747474;
+}
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
