@@ -13,11 +13,11 @@ function Cards () {
     <Col md={4}>
   <Card
      
-    style={{ width: '18rem',color:'white' ,backgroundColor:'darkturquoise',height: '400px'}}
+    style={{ width: '18rem',color:'white' ,backgroundColor:'darkturquoise',height: '300px'}}
     className="mb-2"
   >
     <Card.Body>
-      <Card.Title> Card Title </Card.Title>
+      <Card.Title><ion-icon name="people-circle"></ion-icon></Card.Title>
       <Card.Text className="text-card">
          <h1>For patients</h1>
          <h2>Find a doctor, book a visit and solve any health-related doubt</h2>
@@ -43,11 +43,11 @@ function Cards () {
   <Col md={4}>
   <Card
      
-     style={{ width: '18rem',color:'white' ,backgroundColor:'#3d83df',height: '400px'}}
+     style={{ width: '18rem',color:'white' ,backgroundColor:'#3d83df',height: '300px'}}
      className="mb-2"
    >
      <Card.Body>
-       <Card.Title> Card Title </Card.Title>
+       <Card.Title> <ion-icon name="person-circle-outline"></ion-icon></Card.Title>
        <Card.Text className="text-card">
          <h1>For doctors</h1>
          <h2>Save time managing visits and cut no-shows by half</h2>
@@ -74,11 +74,11 @@ function Cards () {
 
   <Card
      
-     style={{ width: '18rem',color:'white' ,backgroundColor:'#1b2734', height: '400px'}}
+     style={{ width: '18rem',color:'white' ,backgroundColor:'#1b2734', height: '300px'}}
      className="mb-2"
    >
      <Card.Body>
-       <Card.Title> Card Title </Card.Title>
+       <Card.Title> <ion-icon name="business-outline"></ion-icon></Card.Title>
        <Card.Text className="text-card">
          <h1>For clinics</h1>
          <h2>Deliver an exceptional patient experience in your clinic</h2>

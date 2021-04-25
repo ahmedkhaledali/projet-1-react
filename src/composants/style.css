@@ -15,11 +15,15 @@
     margin-top: 5%;
 }
 .text-card{
- font-size: 1.5em;
-    font-weight: 300;
-    line-height: 1.2;
     margin: 0;
     color: #fff;   
+}
+.text-card h1{
+font-size: 30px;
+font-weight: bold;
+}
+.text-card h2{
+    font-size: 20px;
 }
 .liste{
     width: 100%;
@@ -42,6 +46,9 @@
     margin-top: 5%;
 }
 .cont-temoi{
+    background-image: url('images/sygnet.png');
+    background-repeat: no-repeat;
+    height: 570px;
     margin-top: 5%;
     background-color: #e5faf8;
 }
@@ -60,3 +67,44 @@
     text-align: center;
     margin-top: 5%;
 }
+.logo{
+    width: 268px;
+    height: 33px;
+}
+.icone{
+    display: block;
+    margin: 0 auto;
+}
+.cont-titre1 h2{
+color: #00b39b;
+font-size: 30px;
+}
+
+.brand-text {
+    font-size: 1.625em;
+    color: #00b39b;
+    line-height: 2.5rem;
+  }
+  
+  .brand-links {
+    padding-left: 6.5rem;
+  }
+  
+  .brands-logos a path {
+    fill: #ababab;
+  }
+  
+  .brands-logos a img {
+    filter: grayscale(100%);
+  }
+  
+  .brands-logos a:hover path {
+    fill: #00bfa5;
+  }
+  
+  .brands-logos a:hover img {
+    filter: grayscale(0%);
+  }
+  .p1{
+      color: #00bfa5; 
+  }

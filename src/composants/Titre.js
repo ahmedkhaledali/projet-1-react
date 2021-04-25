@@ -1,9 +1,10 @@
 import './style.css';
 import {Row,Container,Col} from "react-bootstrap";
-
+import icone from './images/sygnet.png'
 function Titre(){
     return(
         <div >
+<img src={icone} className="icone" alt="logo" />
             <h2 className="titre" >Making the healthcare experience more human</h2>
 
             <Container className="prag">

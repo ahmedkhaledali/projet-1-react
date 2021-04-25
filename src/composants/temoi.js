@@ -2,6 +2,10 @@ import './style.css';
 import {Row,Container,Col} from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import flag from "./images/flag.png";
+import visits from "./images/visits.png";
+import patients from "./images/patients.png";
+import doctors from "./images/doctors.png";
 
 
 function Temoi(){
@@ -15,11 +19,11 @@ function Temoi(){
         </Col>
         <Col  md={4} >
         <Card
-     style={{ width: '13rem',backgroundColor:'#fff',height: '250px'}}>
+     style={{ width: '13rem',backgroundColor:'#fff',height: '270px',top:'15%'}}>
      <Card.Body>
-       <Card.Title> Card Title </Card.Title>
+       <Card.Title className="p1"><img src={flag} className="temoi" alt="flag" />  <p>Leader in 12 countries</p></Card.Title>
        <Card.Text>
-          <p>Leader in 12 countries</p>
+         
           <p>Poland, Brazil, Mexico, Spain, Italy,
                Turkey, Colombia, Czech Republic,
                 Portugal, Argentina, Peru and Chile</p>
@@ -30,11 +34,11 @@ function Temoi(){
 
         <Col  md={4} >
         <Card
-     style={{ width: '13rem',backgroundColor:'#fff',height: '250px'}}>
+     style={{ width: '13rem',backgroundColor:'#fff',height: '250px',top:'10px' }}>
      <Card.Body>
-       <Card.Title> Card Title </Card.Title>
+       <Card.Title className="p1"><img src={visits} className="temoi" alt="visits" /> <p>4.8 million appointments</p></Card.Title>
        <Card.Text>
-         <p>4.8 million appointments</p>
+         
          <p>booked last month</p>
         </Card.Text>
      </Card.Body>
@@ -47,11 +51,11 @@ function Temoi(){
             </Col>
         <Col  md={4} >
         <Card
-     style={{ width: '13rem',backgroundColor:'#fff',height: '250px'}}>
+     style={{ width: '13rem',backgroundColor:'#fff',height: '220px',top:'25%'}}>
      <Card.Body>
-       <Card.Title> Card Title </Card.Title>
+       <Card.Title className="p1"> <img src={patients} className="temoi" alt="patients" /> <p>61.9 mln unique patients</p></Card.Title>
        <Card.Text>
-          <p>61.9 mln unique patients</p>
+          
           <p>visit our websites each month</p>
         </Card.Text>
      </Card.Body>
@@ -60,11 +64,11 @@ function Temoi(){
 
         <Col  md={4} >
         <Card
-     style={{ width: '13rem',backgroundColor:'#fff',height: '250px'}}>
+     style={{ width: '13rem',backgroundColor:'#fff',height: '220px',top:'20%'}}>
      <Card.Body>
-       <Card.Title> Card Title </Card.Title>
+       <Card.Title className="p1" ><img src={doctors} className="temoi" alt="doctors" /> <p >92.5k active doctors</p></Card.Title>
        <Card.Text>
-         <p>92.5k active doctors</p>
+         
          <p>trust our solutions</p>
         </Card.Text>
      </Card.Body>
