@@ -11,6 +11,7 @@
     padding-top: 70px;
     -webkit-font-smoothing: antialiased;
 }
+
 .cont-card{
     margin-top: 5%;
 }
@@ -56,16 +57,20 @@ font-weight: bold;
     color: darkturquoise;
     text-align: center;
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 2.1428571429em;
+    
 }
 .st{
     font-size: 15px;
     text-align: center;
     color:#747474;
+    
 }
 .footer{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
+    font-size: 12px;
+    color: #ababab;
 }
 .logo{
     width: 268px;

@@ -16,19 +16,17 @@ function Card1(){
       <Row>
           <Col md={4}>
 
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem',top:'5%' }}>
           <img src={warsaw} className="" alt="warsaw" />
   <Card.Body>
     <Card.Title></Card.Title>
-    <Card.Text>
-     
-    </Card.Text>
+    <Card.Text></Card.Text>
     <Button variant="primary">SEE OPENINGS</Button>
   </Card.Body>
 </Card>
           </Col>
           <Col md={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem',top:'5%' }}>
           <img src={barcelona} className="" alt="barcelona" />
   <Card.Body>
     <Card.Title></Card.Title>
@@ -39,7 +37,7 @@ function Card1(){
           </Col>
           <Col md={4}>
 
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem',top:'5%' }}>
           <img src={istanbul} className="" alt="istanbul" />
   <Card.Body>
     <Card.Title></Card.Title>
@@ -54,7 +52,7 @@ function Card1(){
       <Row>
           <Col md={4}>
 
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem',top:'15%' }}>
           <img src={rome} className="" alt="rome" />
   <Card.Body>
     <Card.Title></Card.Title>
@@ -64,7 +62,7 @@ function Card1(){
 </Card>
           </Col>
           <Col md={4}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem',top:'15%' }}>
           <img src={bologna} className="" alt="bologna" />
             <Card.Body>
     <Card.Title></Card.Title>
@@ -75,7 +73,7 @@ function Card1(){
           </Col>
           <Col md={4}>
 
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem',top:'15%' }}>
           <img src={curitiba} className="" alt="curitiba" />
   <Card.Body>
     <Card.Title></Card.Title>

@@ -10,9 +10,9 @@ function Nave(){
   <Navbar.Toggle />
   <Navbar.Collapse className="justify-content-center" >
     <Navbar.Text className="ml-auto">
-      <a href="index.html">About us</a>
-      <a href="index.html" className="pl-3">Career</a>
-      <a href="index.html" className="pl-3">Departements</a>
+      <a href="index.html" style={{color:'#747474'}}>About us</a>
+      <a href="index.html" className="pl-3" style={{color:'#747474'}}>Career</a>
+      <a href="index.html" className="pl-3" style={{color:'#747474'}}>Departements</a>
     </Navbar.Text>
   </Navbar.Collapse>
   </Navbar>
